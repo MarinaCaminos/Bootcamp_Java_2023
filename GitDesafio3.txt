@@ -1,0 +1,26 @@
+Ejercicio 1
+
+Contexto: Miércoles a la mañana.
+
+Consigna: Como se anticipó, resolver incidencias es parte de tu trabajo. ¡Acaba de ocurrir una! Te encuentras trabajando en el repositorio website en el branch custom-navbar. Debes pausar tu trabajo en el commit actual y borrar el archivo status.js del branch master de este repositorio.Será un trabajo muy simple de hacer pero debes hacerlo ya y no tienes tiempo de completar el commit ¿Cómo podrías pausar el trabajo en el commit actual para dedicarte a trabajar en master?
+
+Resolucion:
+1- Guardo los cambios (temporalmente) del branch actual antes de cambiar a otro branch, usando el comando "git stash". 
+2- Cambio al branch master que es donde se encuentra el archivo "status.js" que quiero eliminar, usando el comando "git checkout master".
+3- Elimino el archivo "status.js" usando "git rm status.js".
+4- Confirmo los cambios utilizando el comando "git commit -m "comentario" ".
+
+
+
+Ejercicio 2
+
+Contexto: Miércoles a la tarde. Hoy ayudarás a subir a producción el proyectoque viene desarrollando el equipo de Front-End: una nueva interfaz en React.Js para el Home Banking de uno de nuestros clientes. Su desarrollo se encuentra en el repositorio de la empresa, en la rama front-react.
+
+Consigna: ¿Cómo podrías subir los cambios a producción si es la rama master la que se usa para producción?
+
+Resolucion:
+1- Completo y reviso los cambios realizados en el branch "front-react".
+2- Al necesitar fusionar los cambios del branch "front-react" con "master", primero me muevo al branch "master" con el comando "git checkout master".
+3- Fusiono los cambios en el branch master con el comando "git merge front-react".
+4- En caso de haber conflicto, lo soluciono manualmente buscando y editando esos conflictos. Una vez resuelto, agrego los archivos modificados usando el comando "git add nombreArchivo" y continuo con el merge ejecutando el comando "git merge --continue".
+5- Hago commit de los cambios.
