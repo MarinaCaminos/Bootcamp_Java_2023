@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #0a2ff1;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+span {
+    font-weight: 700;
+}
+
+
+img {
+    width:100px; 
+    vertical-align: middle; 
+    margin-left: 30px;
+} 
+
+
+/*
+¿Porque "text-align: center;" funciona si utilizo div{} pero no si utilizo .imagenes{} ?
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #0a2ff1;
+}
+
+h1 {
+    font-weight: 300;
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width:100px; 
+    vertical-align: middle; 
+    margin-left: 30px;
+} 
+
+*/
