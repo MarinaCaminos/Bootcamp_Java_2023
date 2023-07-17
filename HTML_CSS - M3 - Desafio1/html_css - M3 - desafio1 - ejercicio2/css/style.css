@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Source+Sans+3:wght@400;700;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #0a2ff1;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 66px;
+}
+
+p {
+    background-color: #eff2ff;
+    margin-right: 10px;
+    display: inline;
+}
+
+p strong {
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    background-color: #8a9af1;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 0;
+}
+
+.inline-img {
+    display:inline;
+}
+
+img {
+    width: 30%;
+}
+
+hr {
+    height: 5px;
+    background-color:#3ffff3;
+    border: #3ffff3;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-top: 0%;
+  }
+
+/* O usar flex para las imagenes utilizando el div
+
+
+div{
+    display: flex;
+    
+}
+
+img {
+    width: 30%;
+    margin-right: 7px;
+}
+
+
+*/
+
