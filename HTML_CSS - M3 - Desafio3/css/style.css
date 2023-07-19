@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+  
+hr {
+    padding: 0%;
+    margin: 0%;
+    height: 15px;
+    background-color: #0a2ff1;
+    border-color: #0a2ff1;
+}
+
+header {
+    /*
+    background-image: url("../assets/M5-logo-blanco.svg");
+    */
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+  
+nav {
+    display: flex;
+    align-items: center;
+}
+  
+nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #04146c;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 50px;
+}
+  
+nav a.activo {
+    font-weight: 700;
+}
+  
+main {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #0a2ff1;
+
+}
+  
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 34.6px;
+    color: #04146c;
+}
+  
+img {
+    width: 100%;
+    height: auto;
+}
+
+img .logo {
+    width: 5%;
+}
+
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 0%;
+    margin-bottom: -100px;
+
+    margin-left: 5%;
+}
+
+.contentido {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+
+    margin-right: 10%;
+}
+
+.contentido h1  {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 45.3px;
+    color: #0a2ff1;
+}
+
+.contentido h2 {
+    font-weight: 700;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.contentido p {
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.texto {
+    flex: 1;
+    padding-right: 20px;
+}
+  
+.imagen {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#imagen-desafio3 {
+    width: 100%;
+}
+  
+
+footer {
+    background-color: #3957f1;
+    border-radius: 2%;
+    border-color: #3957f1;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#logo-blanco {
+    width: 10%;
+    margin: 2%;
+    padding-left: 3%;
+}
