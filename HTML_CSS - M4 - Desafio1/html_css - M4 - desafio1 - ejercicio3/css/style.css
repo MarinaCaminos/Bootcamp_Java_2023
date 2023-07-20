@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('../fonts/coolvetica\ rg.otf') format('truetype');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+  
+header {
+    padding: 1em;
+    margin-left: 5%;
+}
+  
+h1 {
+    font-family: 'Coolvetica', sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+    color: #0a2ff1;
+}
+
+.header-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #04146c;
+}
+
+strong {
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+.comment {
+    background-color: #eff2ff;
+    width: 25%;
+    padding: 1em; 
+}
+  
+.rating-img {
+    width: 30%;
+    margin: 5%;
+}
+  
+.comment-details { 
+    margin: 5%;
+}
+  
+.name-city {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+    color: #04146c; 
+}
+  
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #04146c;  
+}
+
+.comment-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c; 
+}
