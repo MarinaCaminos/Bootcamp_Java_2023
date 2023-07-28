@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.blend-header {
+    position: relative;
+    height: 300px;
+
+    /* No uso lo siguiente al usar left,top:30% en el titulo 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+    overflow: hidden;
+    background-image: url("../assets/fondo\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+/*
+.blend-header img {
+    width: 100%; 
+    height: 100%;
+    
+}*/
+  
+.blend-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    background-color: white; 
+    border-radius: 10px;
+    padding: 20px;
+    mix-blend-mode: screen; /* Aplicamos el blend mode */
+}
+  
+  
+.content h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    color: black;
+}
+  
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: black;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    
+    height: 100%;
+    border-radius: 15px;
+    margin-bottom: 5%; 
+    padding: 0;
+}
+
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*
+- Position: absolute; --> Permite que el contenido de .overlay s eposicione sobre la imagen, mas especificamente, sobre todo el contenido dentro del div image-container
+- left: -100%; --> Permite que el contenido se encuentra fuera de vista inicialmente, desde la izq
+- Transition --> Agrega una transicion suave a la animacion.
+*/
+.overlay {
+    position: absolute; 
+    top: 0;
+    left: -100%; 
+    width: 80%; 
+    height: 100%;
+    background-color: rgba(255, 192, 203, 0.8);
+    transition: left 0.3s ease;
+
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+  
+/*
+ Permite que se muestre el contenido del overlay al posicionar el mouse encima de la imagen, cambiando el estilo de la propiedad left del overlay.
+*/
+.image-container:hover .overlay {
+    left: 0;
+}
+
+
+.overlay h1 {
+    font-weight: 900;
+    font-size: 2em; 
+}
+
+.overlay h2 {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.overlay-content {
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
