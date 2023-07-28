@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 5%;
+}
+
+.formulario {
+    width: 80%;
+    padding: 20px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 24px;
+    color: #04146c;
+    display: block;
+    margin-bottom: 5px;
+}
+
+p {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17.3px;
+}
+
+.form-check-input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+}
+
+.form-check-input[type="checkbox"] {
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.form-check-label {
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+    margin-left: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8a9af1;
+    border-radius: 4px;
+    box-shadow: 0 0 1px black;
+}
+
+input[type="email"] {
+    margin-bottom: 1%;
+}
+
+input[type="password"] {
+    margin-bottom: 10px;
+}
+
+
+.aviso {
+    color: #777;
+    margin-bottom: 2%;
+    margin-top: 0%;
+
+}
+
+.btn-custom {
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    background-color: #5974ff;
+
+    border-radius: 3%;
+}
+
+@media (max-width: 767px) {
+    .formulario {
+        max-width: 300px;
+    }
+
+    .btn-custom {
+        width: 100%;
+    }
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;900&display=swap');
+
+* {
+  font-family: 'Source Sans 3', sans-serif;
+  color: #04146c;
+  margin-top: 1%;
+}
+
+.img-style {
+  width: 100%;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 82.6px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 21.3px;
+}
+
+span {
+  font-style: italic;
+}
+
+.button-style {
+  font-weight: 400;
+  font-size: 18.6px;
+  color: white;
+  background-color: #04146c;
+  font-variant: small-caps;
+  width: 150px;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .img-style {
+    width: 80%;
+  }
+  .text-md-start {
+    text-align: left !important; /* Fuerzo la alineación a la izquierda del texto en pantallas mayores o iguales a 768px */
+  }
+}
+
+@media (max-width: 767px) {
+
+  .text-container {
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .button-style {
+    justify-content: center;
+  }
+
+}
