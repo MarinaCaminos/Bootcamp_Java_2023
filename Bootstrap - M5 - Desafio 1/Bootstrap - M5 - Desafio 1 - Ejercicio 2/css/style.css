@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    color: #0a2ff1;
+    margin-bottom: 5%;
+}  
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+.image-box {
+    width: 24%;
+    margin-bottom: 20px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.image-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+  
+.content {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+  
+.content h2 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    /*
+    text-align: center;
+    position: absolute;
+    */
+    
+    top: 70%; 
+    width: 100%;
+    margin: 0%;
+}
+  
+.content p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size:1.5rem;
+    color: white;     
+    margin: 0%; 
+    overflow: hidden; /* Mostrar solo una parte del párrafo */
+    white-space: nowrap; /* Evita que el párrafo se parta en varias líneas */
+    
+    text-overflow: ellipsis;  /* Mostrar puntos suspensivos si el párrafo es muy largo */
+    
+    text-align: center; 
+
+}
+  
+@media (max-width: 992px) {
+    .image-box {
+        width: 48%;
+    }
+}
+   
+@media (max-width: 768px) {
+    .image-box {
+        width: 100%;
+    }
+}
