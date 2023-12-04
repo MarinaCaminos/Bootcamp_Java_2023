@@ -1,0 +1,51 @@
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <script>
+        const getPokemon = () => {
+            fetch('http://localhost:8080/api/pokemon')
+            .then(
+                response => response.json()
+            ).then(
+                data => console.log(data)
+            );
+        }
+    </script>
+    <title>Covid</title>
+    <script>
+        const getCovid = () => {
+            fetch('http://localhost:8080/api/covid')
+            .then(
+                response => response.json()
+            ).then(
+                data => console.log(data)
+            );
+        }
+    </script>
+    <title>PlaceHolder</title>
+    <script>
+        const getPlaceHolder = () => {
+            fetch('http://localhost:8080/api/placeHolder')
+            .then(
+                response => response.json()
+            ).then(
+                data => console.log(data)
+            );
+        }
+    </script>
+</head>
+<body>
+<h2>Desafio Java MD5</h2>
+<button onclick="getPokemon()">
+    Mostrar pokemon
+</button>
+<button onclick="getCovid()">
+    Mostrar covid
+</button>
+<button onclick="getPlaceHolder()">
+    Mostrar place holder
+</button>
+</body>
+</html>
